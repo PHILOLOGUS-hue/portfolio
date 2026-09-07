@@ -1,0 +1,4 @@
+{
+  "buildCommand": "echo 'Static portfolio - no build step required'",
+  "outputDirectory": "."
+}
