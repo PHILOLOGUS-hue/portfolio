@@ -51,7 +51,7 @@
 
         <section class="mx-auto max-w-7xl px-4 pb-6 pt-6 sm:px-6 lg:px-8 lg:pt-8">
             <div class="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900/70 shadow-2xl shadow-cyan-950/30">
-                <div id="carouselTrack" class="relative h-[420px] overflow-hidden sm:h-[500px]">
+                    <div id="carouselTrack" class="relative h-[clamp(360px,65vh,520px)] overflow-hidden">
                     <article class="slide absolute inset-0 opacity-100 transition duration-700" data-slide="0">
                         <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80" alt="Modern workspace" class="h-full w-full object-cover" />
                         <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
@@ -117,6 +117,28 @@
                             </div>
                         </div>
                     </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="6">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=80" alt="Designer sketching a digital interface" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Turning early ideas into interfaces with a clear visual rhythm and a confident point of view.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">I connect thoughtful design decisions with practical front-end structure from the first sketch to the final screen.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="7">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=80" alt="Team collaborating around a laptop" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Making every interaction feel intentional, from the first tap to the final detail.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">Responsive behavior, accessible states, and careful feedback turn a good interface into one people enjoy using.</p>
+                            </div>
+                        </div>
+                    </article>
                 </div>
 
                 <button id="prevSlide" type="button" class="absolute left-4 top-1/2 -translate-y-1/2 rounded-full border border-white/15 bg-slate-950/60 p-3 text-white transition hover:bg-slate-800" aria-label="Previous slide">
@@ -151,17 +173,22 @@
                     </div>
                     <div class="mt-8 grid gap-3 sm:grid-cols-3">
                         <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
-                            <p class="text-2xl font-semibold text-white">0</p>
+                            <p class="text-2xl font-semibold text-white">1</p>
                             <p class="mt-1 text-sm text-slate-400">years of building interfaces</p>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
-                            <p class="text-2xl font-semibold text-white">1</p>
+                            <p class="text-2xl font-semibold text-white">2</p>
                             <p class="mt-1 text-sm text-slate-400">responsive projects shipped</p>
                         </div>
                         <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
                             <p class="text-2xl font-semibold text-white">100%</p>
                             <p class="mt-1 text-sm text-slate-400">focus on quality & clarity</p>
                         </div>
+                    </div>
+
+                    <div class="mt-6 flex flex-wrap gap-3">
+                        <a href="https://philoproject.vercel.app/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-full border border-cyan-400/40 bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-300 transition hover:border-cyan-300 hover:bg-cyan-500/20">Philoproject</a>
+                        <a href="https://philologus-hue.github.io/ARC/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center rounded-full border border-cyan-400/40 bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-300 transition hover:border-cyan-300 hover:bg-cyan-500/20">ARC</a>
                     </div>
                 </div>
 
@@ -267,11 +294,11 @@
                                 product teams, and full-time opportunities. If you need a thoughtful front-end partner,
                                 I’d be glad to connect.</p>
                             <div class="mt-6 space-y-3 text-sm text-slate-300">
-                                <p><span class="font-semibold text-white">Email:</span> ijiolaphilologus@gmail.com</p>
+                                <p><span class="font-semibold text-white">Email:</span> philtech2026@gmail.com</p>
                                 <p><span class="font-semibold text-white">Location:</span> Available remotely</p>
                             </div>
                         </div>
-                        <form action="mailto:ijiolaphilologus@gmail.com" method="post" enctype="text/plain"
+                        <form action="mailto:philtech2026@gmail.com" method="post" enctype="text/plain"
                             class="space-y-4 rounded-2xl border border-white/10 bg-slate-950/70 p-6">
                             <div>
                                 <label class="mb-2 block text-sm font-medium text-slate-300" for="name">Name</label>
@@ -303,13 +330,15 @@
     </div>
 
     <footer class="border-t border-white/10 bg-slate-950/90">
-        <div
+        <div_
             class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-6 text-sm text-slate-400 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
             <p>© 2026 Phil_tech. All rights reserved.</p>
         </div>
     </footer>
 
-    <script type="module" src="/src/main.js"></script>
+    <script src="./src/mobile-menu.js"></script>
+    <script src="./src/carousel.js"></script>
+    <script type="module" src="./src/main.js"></script>
 </body>
 
 </html>

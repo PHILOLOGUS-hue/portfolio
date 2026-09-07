@@ -18,6 +18,31 @@ body {
   transition: background-color 220ms ease, color 220ms ease;
 }
 
+img,
+svg {
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+textarea {
+  resize: vertical;
+}
+
+@media (max-width: 640px) {
+  h1,
+  h2,
+  h3,
+  p {
+    overflow-wrap: anywhere;
+  }
+}
+
 body[data-theme='light'] {
   background-color: #f8fafc;
   color: #0f172a;

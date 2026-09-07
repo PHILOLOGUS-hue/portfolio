@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>phil_tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" crossorigin src="/assets/index-B020U_6R.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BKDVObDC.css">
+</head>
+
+<body class="bg-slate-950 text-slate-100 antialiased">
+    <div
+        class="min-h-screen bg-[radial-gradient(circle_at_top_left,_rgba(34,211,238,0.14),_transparent_35%),radial-gradient(circle_at_bottom_right,_rgba(59,130,246,0.16),_transparent_30%)]">
+        <header class="sticky top-0 z-40 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl">
+            <nav class="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-3 sm:px-6 sm:py-4 lg:px-8">
+                <a href="#home" class="flex items-center gap-4 text-white">
+                    <img src="/assets/phil_tech%20logo-B8EJY5KC.png" alt="Phil_tech logo"
+                        class="h-16 w-16 rounded-full object-contain sm:h-20 sm:w-20" loading="eager" decoding="async" />
+                    <span class="text-xl font-semibold tracking-[0.2em] sm:text-2xl">Phil_tech</span>
+                </a>
+
+                <div class="flex items-center gap-2 sm:gap-3">
+                    <button id="menuButton" type="button" class="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 p-2.5 text-slate-200 transition hover:border-cyan-400/50 hover:text-cyan-300 md:hidden" aria-expanded="false" aria-controls="mobileMenu">
+                        <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                            <path d="M4 7h16M4 12h16M4 17h16" stroke-linecap="round" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="hidden md:flex md:flex-1 md:items-center md:justify-end md:gap-6">
+                    <a href="#about" class="text-sm text-slate-300 transition hover:text-cyan-400">About</a>
+                    <a href="#services" class="text-sm text-slate-300 transition hover:text-cyan-400">Services</a>
+                    <a href="#projects" class="text-sm text-slate-300 transition hover:text-cyan-400">Projects</a>
+                    <a href="#contact" class="text-sm text-slate-300 transition hover:text-cyan-400">Contact</a>
+                </div>
+            </nav>
+
+            <div id="mobileMenu" class="hidden border-t border-white/10 bg-slate-950/95 px-4 py-4 md:hidden">
+                <div class="flex flex-col gap-2">
+                    <a href="#about" class="rounded-xl px-3 py-2 text-sm text-slate-300 transition hover:bg-white/5 hover:text-cyan-400">About</a>
+                    <a href="#services" class="rounded-xl px-3 py-2 text-sm text-slate-300 transition hover:bg-white/5 hover:text-cyan-400">Services</a>
+                    <a href="#projects" class="rounded-xl px-3 py-2 text-sm text-slate-300 transition hover:bg-white/5 hover:text-cyan-400">Projects</a>
+                    <a href="#contact" class="rounded-xl px-3 py-2 text-sm text-slate-300 transition hover:bg-white/5 hover:text-cyan-400">Contact</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="mx-auto max-w-7xl px-4 pb-6 pt-6 sm:px-6 lg:px-8 lg:pt-8">
+            <div class="relative overflow-hidden rounded-[2rem] border border-white/10 bg-slate-900/70 shadow-2xl shadow-cyan-950/30">
+                    <div id="carouselTrack" class="relative h-[clamp(360px,65vh,520px)] overflow-hidden">
+                    <article class="slide absolute inset-0 opacity-100 transition duration-700" data-slide="0">
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80" alt="Modern workspace" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Crafting visually clean, conversion-focused interfaces with a strong sense of hierarchy.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">I shape layouts around clarity, comfort, and user intent so every screen feels both polished and intuitive.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="1">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1400&q=80" alt="Developer working at a desk" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Building layouts that feel effortless across mobile, tablet, and desktop screens.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">From compact mobile navigation to expansive desktop experiences, every breakpoint is designed with care.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="2">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80" alt="Team collaboration" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Designing with business goals in mind so the experience supports growth and conversion.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">The best interfaces balance aesthetics, function, and the practical needs of both users and teams.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="3">
+                        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1400&q=80" alt="Creative planning session" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Creating front-end systems that are easy to expand as projects evolve and grow.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">Clean structure, reusable patterns, and maintainable code make future updates smoother and faster.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="4">
+                        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=1400&q=80" alt="Team presenting ideas" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Working closely with teams to turn ideas into clear, confident digital experiences.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">Great product work comes from thoughtful collaboration, careful feedback, and an eye for detail.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="5">
+                        <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1400&q=80" alt="Developer reviewing code" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Building experiences that stay polished, useful, and ready to grow over time.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">I focus on durable foundations so products remain intuitive and strong as they evolve.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="6">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=1400&q=80" alt="Designer sketching a digital interface" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Turning early ideas into interfaces with a clear visual rhythm and a confident point of view.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">I connect thoughtful design decisions with practical front-end structure from the first sketch to the final screen.</p>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="slide absolute inset-0 opacity-0 transition duration-700" data-slide="7">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=1400&q=80" alt="Team collaborating around a laptop" class="h-full w-full object-cover" />
+                        <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/80 to-slate-900/20"></div>
+                        <div class="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
+                            <div class="max-w-2xl">
+                                <h2 class="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">Making every interaction feel intentional, from the first tap to the final detail.</h2>
+                                <p class="mt-4 max-w-xl text-sm leading-7 text-slate-200 sm:text-base">Responsive behavior, accessible states, and careful feedback turn a good interface into one people enjoy using.</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <button id="prevSlide" type="button" class="absolute left-4 top-1/2 -translate-y-1/2 rounded-full border border-white/15 bg-slate-950/60 p-3 text-white transition hover:bg-slate-800" aria-label="Previous slide">
+                    <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M12.5 4.5 7 10l5.5 5.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button id="nextSlide" type="button" class="absolute right-4 top-1/2 -translate-y-1/2 rounded-full border border-white/15 bg-slate-950/60 p-3 text-white transition hover:bg-slate-800" aria-label="Next slide">
+                    <svg class="h-5 w-5" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M7.5 4.5 13 10 7.5 15.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+
+                <div id="carouselDots" class="absolute bottom-4 left-1/2 flex -translate-x-1/2 gap-2"></div>
+            </div>
+        </section>
+
+        <main id="home">
+            <section
+                class="mx-auto grid max-w-7xl items-center gap-10 px-4 py-8 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8 lg:py-14">
+                <div class="max-w-2xl">
+                    <p class="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">Front-End Developer</p>
+                    <h1 class="text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">
+                        Building polished, accessible web experiences that feel effortless to use.
+                    </h1>
+                    <p class="mt-6 text-lg leading-8 text-slate-300">
+                        I create responsive interfaces with a strong focus on clarity, performance, and maintainable code. My work helps teams ship products that look refined and work reliably across devices.
+                    </p>
+                    <div class="mt-8 flex flex-wrap gap-4">
+                        <a href="#projects" class="rounded-full bg-cyan-500 px-6 py-3 font-semibold text-slate-950 transition hover:bg-cyan-400">View selected work</a>
+                        <a href="#services" class="rounded-full border border-white/15 px-6 py-3 font-semibold text-slate-200 transition hover:border-cyan-400/40 hover:text-cyan-300">Explore services</a>
+                    </div>
+                    <div class="mt-8 grid gap-3 sm:grid-cols-3">
+                        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                            <p class="text-2xl font-semibold text-white">0</p>
+                            <p class="mt-1 text-sm text-slate-400">years of building interfaces</p>
+                        </div>
+                        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                            <p class="text-2xl font-semibold text-white">1</p>
+                            <p class="mt-1 text-sm text-slate-400">responsive projects shipped</p>
+                        </div>
+                        <div class="rounded-2xl border border-white/10 bg-slate-900/70 p-4">
+                            <p class="text-2xl font-semibold text-white">100%</p>
+                            <p class="mt-1 text-sm text-slate-400">focus on quality & clarity</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rounded-3xl border border-white/10 bg-slate-900/80 p-5 shadow-2xl shadow-slate-950/40">
+                    <div class="rounded-2xl border border-white/10 bg-slate-950/75 p-6">
+                        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Current focus</p>
+                        <ul class="mt-6 space-y-4 text-sm leading-7 text-slate-300">
+                            <li class="flex items-start gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-400"></span><span>Creating scalable front-end systems for startups and digital products.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-400"></span><span>Turning design concepts into responsive, production-ready interfaces.</span></li>
+                            <li class="flex items-start gap-3"><span class="mt-2 h-2.5 w-2.5 rounded-full bg-cyan-400"></span><span>Improving performance, structure, and usability for long-term maintainability.</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+                <div
+                    class="grid gap-8 rounded-3xl border border-white/10 bg-slate-900/70 p-8 shadow-xl shadow-slate-950/40 lg:grid-cols-[0.9fr_1.1fr] lg:p-12">
+                    <div>
+                        <p class="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">About</p>
+                        <h2 class="mt-3 text-3xl font-bold text-white sm:text-4xl">Thoughtful front-end development,
+                            grounded in detail.</h2>
+                    </div>
+                    <div class="space-y-4 text-lg leading-8 text-slate-300">
+                        <p>I work at the intersection of design and implementation, bringing structure to ideas and
+                            clarity to interfaces. I value clean code, strong communication, and user-first decisions
+                            that make digital products easier to understand and faster to use.</p>
+                        <p>Whether I’m building a marketing site, product experience, or internal tool, I focus on
+                            creating experiences that are polished, accessible, and ready to scale.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+                <div class="mb-8">
+                    <p class="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">Services</p>
+                    <h2 class="mt-2 text-3xl font-bold text-white">What I help teams build</h2>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-3">
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6">
+                        <h3 class="text-xl font-semibold text-white">Interface Development</h3>
+                        <p class="mt-3 text-sm leading-7 text-slate-400">Responsive, production-ready interfaces built
+                            with semantic HTML, modern CSS, and scalable component patterns.</p>
+                    </article>
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6">
+                        <h3 class="text-xl font-semibold text-white">UI Systems & Design Hand-off</h3>
+                        <p class="mt-3 text-sm leading-7 text-slate-400">Consistent layouts, reusable UI patterns, and
+                            clear implementation details for design and product teams.</p>
+                    </article>
+                    <article class="rounded-2xl border border-white/10 bg-slate-900/70 p-6">
+                        <h3 class="text-xl font-semibold text-white">Performance & Accessibility</h3>
+                        <p class="mt-3 text-sm leading-7 text-slate-400">Thoughtful optimization for speed, readability,
+                            and accessible navigation across modern browsers and devices.</p>
+                    </article>
+                </div>
+            </section>
+
+            <section id="projects" class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
+                <div class="mb-8">
+                    <p class="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">Selected work</p>
+                    <h2 class="mt-2 text-3xl font-bold text-white">Recent experiences and product work</h2>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-3">
+                    <article class="overflow-hidden rounded-3xl border border-white/10 bg-slate-900/70">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
+                            alt="Product analytics dashboard" class="h-48 w-full object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white">Insight Dashboard</h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-400">A modular analytics experience designed for
+                                readability, fast scanning, and clear information hierarchy.</p>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden rounded-3xl border border-white/10 bg-slate-900/70">
+                        <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=900&q=80"
+                            alt="E-commerce storefront" class="h-48 w-full object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white">Aurora Commerce</h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-400">An elegant storefront focused on
+                                conversion, clarity, and a smooth mobile experience from discovery to checkout.</p>
+                        </div>
+                    </article>
+                    <article class="overflow-hidden rounded-3xl border border-white/10 bg-slate-900/70">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+                            alt="Marketing landing page" class="h-48 w-full object-cover" />
+                        <div class="p-6">
+                            <h3 class="text-xl font-semibold text-white">North Studio</h3>
+                            <p class="mt-3 text-sm leading-7 text-slate-400">A polished marketing site with strong
+                                storytelling, clear messaging, and a modern, minimal visual system.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
+                <div
+                    class="rounded-3xl border border-cyan-400/20 bg-gradient-to-br from-cyan-500/10 via-slate-900 to-slate-900 p-8 shadow-2xl shadow-cyan-500/10 lg:p-12">
+                    <div class="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+                        <div>
+                            <p class="text-sm font-semibold uppercase tracking-[0.3em] text-cyan-400">Contact</p>
+                            <h2 class="mt-3 text-3xl font-bold text-white sm:text-4xl">Let’s discuss your next product
+                                or launch.</h2>
+                            <p class="mt-4 text-lg leading-8 text-slate-300">I’m available for freelance collaborations,
+                                product teams, and full-time opportunities. If you need a thoughtful front-end partner,
+                                I’d be glad to connect.</p>
+                            <div class="mt-6 space-y-3 text-sm text-slate-300">
+                                <p><span class="font-semibold text-white">Email:</span> philtech2026@gmail.com</p>
+                                <p><span class="font-semibold text-white">Location:</span> Available remotely</p>
+                            </div>
+                        </div>
+                        <form action="mailto:philtech2026@gmail.com" method="post" enctype="text/plain"
+                            class="space-y-4 rounded-2xl border border-white/10 bg-slate-950/70 p-6">
+                            <div>
+                                <label class="mb-2 block text-sm font-medium text-slate-300" for="name">Name</label>
+                                <input id="name" name="name" type="text"
+                                    class="w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-3 text-white outline-none ring-0 focus:border-cyan-400"
+                                    placeholder="Your name" />
+                            </div>
+                            <div>
+                                <label class="mb-2 block text-sm font-medium text-slate-300" for="email">Email</label>
+                                <input id="email" name="email" type="email"
+                                    class="w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-3 text-white outline-none ring-0 focus:border-cyan-400"
+                                    placeholder="you@example.com" />
+                            </div>
+                            <div>
+                                <label class="mb-2 block text-sm font-medium text-slate-300"
+                                    for="message">Message</label>
+                                <textarea id="message" name="message" rows="4"
+                                    class="w-full rounded-xl border border-white/10 bg-slate-900 px-4 py-3 text-white outline-none ring-0 focus:border-cyan-400"
+                                    placeholder="Tell me about your project"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="w-full rounded-full bg-cyan-500 px-5 py-3 font-semibold text-slate-950 transition hover:bg-cyan-400">Send
+                                inquiry</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <footer class="border-t border-white/10 bg-slate-950/90">
+        <div_
+            class="mx-auto flex max-w-7xl flex-col gap-2 px-4 py-6 text-sm text-slate-400 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+            <p>© 2026 Phil_tech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./src/mobile-menu.js"></script>
+    <script src="./src/carousel.js"></script>
+</body>
+
+</html>
